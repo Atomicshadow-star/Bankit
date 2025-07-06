@@ -1,0 +1,292 @@
+.Header {
+    display:flex;
+    top:-50px;
+    left:0px;
+    right:0px;
+    flex-direction: row;
+    flex-shrink: 2;
+    background-color:rgb(241,240,236);
+    width:100%;
+    height:47px;
+    border-bottom:none;
+}
+
+.logo{
+    font-family: "Courgette", cursive;
+    font-size: 33px;
+    position:absolute;
+    left:70px;
+    top:0px;
+    font-weight:1000px;
+}
+   
+.platform{
+    position:relative;
+    left:215px;
+    top:10px;
+    font-family:"Mona sans";
+    font-size:20px;
+    cursor: pointer;
+}
+
+.platform:hover{
+    text-decoration: underline;
+}
+
+
+.marketplace{
+    position:relative;
+    font-family:"Mona sans";
+    font-size:20px;
+    cursor: pointer;
+     top:10px;
+    left:258px;
+}
+.marketplace:hover{
+    text-decoration: underline;
+}
+
+.resources{
+    position:relative;
+    font-family:"Mona sans";
+    font-size:20px;
+    cursor: pointer;
+     top:10px;
+    left:301px;
+}
+.resources:hover{
+    text-decoration:underline;  
+}
+.about{
+    position:relative;
+    font-family:"Mona sans";
+    font-size:20px;
+    cursor: pointer;
+     top:10px;
+    left:344px;
+}
+.about:hover{
+    text-decoration:underline;
+}
+
+.login{
+    position:relative;
+    font-family:"Mona sans";
+    font-size:20px;
+    cursor: pointer;
+    top:10px;
+    left:800px;
+    margin:0px;
+}
+.login:hover{
+    text-decoration: underline;
+}
+
+.request{
+    position:relative;
+    top:2px;
+    left:890px;
+}
+.request-button{
+    width:150px;
+    height:40px;
+   padding:7px;
+    text-align: center;
+    border-radius: 10px;
+    border-width:1px;
+    cursor:pointer;
+    
+    font-family:"Mona sans";
+    font-size:20px;
+    font-weight:100px;
+   
+}
+.request-button:hover{
+    opacity:0.7;
+}
+
+
+
+
+.main-body1{
+width:1440px;
+background-color:rgb(241,240,236);
+height:812px;
+position:absolute;
+display:flex;
+flex-direction:row;
+top:45px;
+left:-1px;
+right:0px;
+min-width:50%;
+}
+.textpo{
+    position:absolute;
+    left:80px;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    top:90px;
+}
+.main-text{
+    font-size:80px;
+}
+
+.main-text2{
+    position:absolute;
+    left:80px;
+    top:470px;
+    font-size:20px;
+    font-family:"Helvetica Neue";
+}
+
+.Getstarted{
+    position:absolute;
+    top:600px;
+    left:80px;
+    Background-color:black;
+    color:white;
+    width:220px;
+    Height:70px;
+    border:none;
+    border-radius:20px;
+    font-family:"Helvetica neue";
+    font-size:18px;
+}
+.Getstarted:hover{
+    opacity:0.8;
+}
+
+
+.circle1{
+    border:none;
+    height:150px;
+    width:150px;
+    position:relative;
+    left:740px;
+    top:520px;
+    background-color: rgb(209,192,159);
+    border-radius: 150px;
+    
+}
+
+.circleimg{
+    position:relative;
+    left:575px;
+    top:500px;
+}
+.male-img{
+    border:solid;
+    border-radius:500px;
+    height:150px;
+    width:150px;
+    border-width:2px;
+    
+}
+
+
+.card{
+    position:relative;
+    left:640px;
+    top:190px
+}
+
+.card-img{
+    height:536px;
+    width:490px;
+    border:none;
+}
+
+.circle2{
+    border:none;
+    height:150px;
+    width:150px;
+    position:relative;
+    left:440px;
+    top:70px;
+    background-color: rgb(209,192,159);
+    border-radius: 150px;
+}
+
+.circle3{
+    border:none;
+    height:150px;
+    width:150px;
+    position:relative;
+    left:280px;
+    top:60px;
+    background-color: black;
+    border-radius: 150px;
+}
+
+.year-text{
+    position:relative;
+    left:40px;
+    color:white;
+    font-family:"Mona sans";
+    font-size:35px;
+}
+
+.main-body2{
+    position:relative;
+    top:800px;
+    left:0px;
+    width:1440px;
+    background-color:black;
+    height:700px;
+
+}
+
+.main-body2-text{
+    color:white;
+    position:absolute;
+    top:77px;
+    left:70px;
+    font-size: 40px;
+    font-family: Helvetica;
+    width:631px;
+}
+
+.first-article{
+    position:relative;
+    background-color: rgb(33,33,33);
+    width:310px;
+    height:349px;
+    top:272px;
+    left:70px;
+    border:none;
+    border-radius:20px;
+} 
+.box-text{
+    position:absolute;
+    left:20px;
+    color:white;
+    font-size:30px;
+    font-family:'Helvetica';
+}
+
+.link1{
+    position:relative;
+    color:rgb(233,233,233);
+    top:300px;
+    left:20px;
+    font-size:20px;
+}
+
+.second-article{
+    position:relative;
+    background-color: rgb(33,33,33);
+    width:310px;
+    height:359px;
+    top:12px;
+    left:395px;
+    border:none;
+    border-radius:20px; 
+}
+
+.box-text2{
+    position:relative;
+    color:rgb(233,233,233);
+    top:32px;
+    left:20px;
+    font-size:25px;
+}
